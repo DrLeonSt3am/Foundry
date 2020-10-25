@@ -7,179 +7,190 @@
     color:  #ffffff;
     font-family: "Orbitron";
     font-variant: small-caps;
-    font-weight: normal;
+  	font-weight: normal;
     letter-spacing: 0.02em; }
   .phb h2 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: caps;
     letter-spacing: 0.02em; }
   .phb h3 {
     color: #ffffff;
     border-bottom:1.5pt solid  #23bedd ;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: caps;
     letter-spacing: 0.02em; }
   .phb h4 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
+    font-variant: caps;
+    letter-spacing: 0.02em; }
+  .phb h5 {
+    color: #ffffff;
+    font-family: "Orbitron";
+  	font-weight: normal;
     font-variant: caps;
     letter-spacing: 0.02em; }
    .phb {
-     color:  #23bedd ;
-     font-family: "Orbitron";
-     font-weight: normal;
-     font-size: 12.5px;
-     font-weight: 560;
-     font-variant: caps;
-     letter-spacing: 0.015em; }
+  	color:  #23bedd ;
+    font-family: "Orbitron";
+  	font-weight: normal;
+    font-size: 12.5px;
+    letter-spacing: 0.015em; }
 
 /* Notes */
   .phb blockquote {
     background-color: transparent;
     background-image: url("https://i.imgur.com/2BqhOpm.png");
     background-position: center;
-    background-size: 20% 98%;
+  	background-size: 20% 98%;
     }
   .phb blockquote h1 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
   .phb blockquote h2 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
   .phb blockquote h3 {
     color: #ffffff;
     border-bottom:1.5pt solid #d1e5d9;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
   .phb blockquote h4 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
-  .phb blockquote h5 { color: #ffffff }
+  .phb blockquote h5 { 
+  	color:  #ffffff ;
+  	font-variant: small-caps;
+ 	font-family: "Orbitron";
+  	font-weight: normal;
+  	}
   .phb blockquote {color: #23bedd }
    	
   
 /*Description Block*/
   .phb .descriptive {
-    background-color: transparent;
+ 	background-color: transparent;
     background-image: url("https://i.imgur.com/2BqhOpm.png");
     background-position: center;
-    background-size: 20% 98%;
-    }
+  	background-size: 20% 98%;
+  	}
   .phb blockquote h1 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
   .phb blockquote h2 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
   .phb blockquote h3 {
     color: #ffffff;
-    border-bottom:1.5pt solid #d1e5d9;
+    border-bottom:1.5pt solid #23bedd;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em;}
   .phb blockquote h4 {
     color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
     letter-spacing: 0.02em; }
+   .phb blockquote h5 { 
+  	color:  #ffffff ;
+  	font-variant: small-caps;
+ 	font-family: "Orbitron";
+  	font-weight: normal;
+  	}
   .phb .descriptive{ 
-    color: #23bedd; 
-    font-variant: small-caps;
-    font-family: "Orbitron"; }
+  	color: #23bedd; 
+  	font-variant: small-caps;
+ 	font-family: "Orbitron"; }
   
 /* Tables */
   table tr:nth-child(odd) td { background-color: #1d1d1d; color: #23bedd }
   .phb .classTable {
     font-family: "Orbitron";
-    font-weight: normal;
+  	font-weight: normal;
     font-variant: small-caps;
-    border-image-outset: 20px 25px !important;
-    align:center;
+  	border-image-outset: 16px 25px !important;
     width:90%;
+  	height:49%;
     margin-left:auto;
     margin-right:auto;
     line-height:11px;
-    border-image-source: url(https://i.imgur.com/2SDdZqm.png);
-    background-color: transparent; }
-  .phb .classTable h5 {color: #23bedd; font-weight: 100;}
-  .phb .classTable {color: #23bedd; font-weight: 100;}
-  
-/* Statblocks */
+    border-image-source: url(https://i.imgur.com/5Wh2CM9.png);
+    background-color: transparent; 
+  	background-image: url(https://i.imgur.com/2BqhOpm.png) ;
+  	
+  	}
+  .phb .classTable h5 {
+  	color: #ffffff; 
+  	font-family: "Orbitron";
+  	font-weight: 100;
+  	text-align: center;
+  	}
+  .phb .classTable {
+    color: #23bedd; 
+  	font-family: "Orbitron";
+  	font-weight: normal;
+  	font-variant: small-caps; 
+  	}
+  .phb table {
+    color: #23bedd; 
+  	font-family: "Orbitron";
+  	font-weight: normal;
+  	font-size: 12px;
+  	font-variant: small-caps; 
+  	}
+
+  /* Statblocks */
   .phb hr + blockquote tr:nth-child(odd) td {
-    color: #23bedd;
+    color: #ffffff;
     background-color: transparent; }
   .phb hr + blockquote {
     background-color: transparent;
-    background-image: https://i.imgur.com/2BqhOpm.png;
+    background-image: none;
     background-position: center center; 
     border-width: 6px;
-    border-image: url(https://i.imgur.com/2BqhOpm.png);
+    border-image: url(https://i.imgur.com/bwoGam7.png);
     border-image-slice: 20 
-    font-variant: small-caps;
-    font-family: "Orbitron";
-    font-weight: normal;
     }
-  .phb hr+blockquote hr{background-image: url(https://i.imgur.com/dRZytFF.png)}
+  .phb hr+blockquote hr{background-image: url(https://i.imgur.com/DOeSXF7.png)}
   .phb hr+blockquote h2 {
-    color:  #ffffff ;
-    font-variant: small-caps;
+  	color: #ffffff;
     font-family: "Orbitron";
-    font-weight: normal;
-    }
-  .phb hr+blockquote h3 {
-    color:  #ffffff ; 
-    border-bottom:0.9pt solid  #39ece4 
+  	font-weight: normal;
     font-variant: small-caps;
-    font-family: "Orbitron";
-    font-weight: normal;
     }
-  .phb hr+blockquote hr+ul{
-    color:  #23bedd ;
-    font-variant: small-caps;
-    font-family: "Orbitron";
-    font-weight: normal;
-    }
-  .phb hr+blockquote table{
-    color:  #ffffff ;
-    font-variant: small-caps;
-    font-family: "Orbitron";
-    font-weight: normal;
-    }
+  .phb hr+blockquote h3 {color: #ff1919; border-bottom:0.9pt solid #ff1919}
+  .phb hr+blockquote hr+ul{color: #d1e5d9;}
+  .phb hr+blockquote table{color: #ff1919;}
   .phb hr+blockquote {
-    color:  #23bedd ;
-    font-variant: small-caps;
     font-family: "Orbitron";
-    font-weight: normal;
-    }
-  .phb hr+blockquote strong {
-    color:  #23bedd ;
-    font-variant: small-caps;
-    font-family: "Orbitron";
-    font-weight: normal;
-    }
+  	font-weight: normal;
+    font-variant: normal;
+  	font-weight: 500;
+  }
+  .phb hr+blockquote strong {color: #ff1919;}
   
 
 /* Footer */
@@ -191,7 +202,7 @@
     z-index          : 100;
     height           : 100%;
     width            : 100%;
-    background-image : url('https://i.imgur.com/Nrx1yZx.png');
+    background-image : url('https://i.imgur.com/FQ81a7O.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 310px 128px;
@@ -205,7 +216,7 @@
     z-index          : 100;
     height           : 100%;
     width            : 100%;
-    background-image : url('https://i.imgur.com/Nrx1yZx.png');
+    background-image : url('https://i.imgur.com/FQ81a7O.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 310px 128px;
